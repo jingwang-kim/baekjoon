@@ -4,6 +4,6 @@ arr = []
 for _ in range(28):
     arr.append(int(sys.stdin.readline()))
 
-for i in range(1,30):
+for i in range(1,31):
     if i not in arr:
         print(i)
