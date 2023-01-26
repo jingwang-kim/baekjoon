@@ -1,7 +1,7 @@
 import sys
 from collections import deque
 
-#분할 정복
+#<분할 정복>
 n = int(sys.stdin.readline())
 graph = [list(map(int,sys.stdin.readline().strip())) for _ in range(n)]
 
@@ -25,7 +25,7 @@ def solution(x,y,n):
 
 solution(0,0,n)
 
-#분할정복의 거듭제곱 연산(나머지 분배법칙)
+#<분할정복의 거듭제곱 연산(나머지 분배법칙)>
 #지수 법칙 : a^m+n = a^m * a^n
 #나머지 분배 법칙 : (a*b) % c = ((a%c) * (b%c)) % c
 
